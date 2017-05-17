@@ -1,0 +1,44 @@
+{
+  "appenders": [
+    {
+      "type": "clustered",
+      "appenders": [
+        {
+          "type": "dateFile",
+          "filename": "log/access.log",
+          "pattern": "-yyyy-MM-dd",
+          "category": "http"
+        },
+        {
+          "type": "file",
+          "filename": "log/app.log",
+          "maxLogSize": 10485760,
+          "numBackups": 3
+        },
+        {
+          "type": "logLevelFilter",
+          "level": "DEBUG",
+          "appender": {
+            "type": "file",
+            "filename": "log/errors.log"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+
+{
+  "appenders": [
+    { "type": "console" ,  
+      /*
+     "layout": {
+        "type": "pattern",
+        "pattern": "[%r] [%[%5.5p%]] - %m%n"
+      },       */  
+      "level": "ERROR"
+    }
+  ]
+}

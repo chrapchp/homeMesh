@@ -1,0 +1,12 @@
+
+
+{
+  "appenders": [
+    { "type": "console"  
+    }
+  ],
+  "levels": { 
+        "[all]" : "DEBUG",
+        "apps.js":"ERROR"
+      }
+}

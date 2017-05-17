@@ -1,0 +1,52 @@
+<h1>Edit Device</h1>
+
+<div class="form-group" >
+<form>
+       
+
+        <label>Address64:</label>		
+        <label>{{deviceToEdit.address64}}</label><br/>
+
+
+
+        <label>Node Identifier:</label>		
+        <label>{{deviceToEdit.nodeIdentifier}}</label><br/>
+
+        <label>Latitude:  <input type="number" class="form-control" ng-model="deviceToEdit.coordinates.latitude" /></label>		
+        
+ 
+
+        <label>Longitude <input class="form-control" ng-model="deviceToEdit.coordinates.longitude"/></label>	
+      
+
+
+        <label>Elevation <input class="form-control" ng-model="deviceToEdit.elevation"/></label></br></br>
+   
+
+
+
+			
+			<label>Pin</label>
+			<label>Description</label>	
+			<label>Tag Name</label>
+			<label>Comment</label>	
+			<label>Status</label>		
+			<label>Discovered Timestamp</label>		
+
+
+		 <div ng-repeat="xbeeIO in deviceToEdit.ioConfiguration" class="form-group">
+	
+
+            <label>{{xbeeIO.pinName}}</label>
+            <labek>{{xbeeIO.description}}</label>
+            <input type="text" class="form-control"  ng-model=xbeeIO.tagname />
+            <input type="text" class="form-control" ng-model=xbeeIO.comment />
+            <label>{{xbeeIO.status}}</label>
+            <label>{{xbeeIO.discoveredTimestamp}}</label>
+        
+
+
+		</div>
+    <input type="button" class="btn btn-primary" value="Save" ng-click="save()"></input>	
+</form>
+</div>

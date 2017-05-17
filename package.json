@@ -1,0 +1,27 @@
+{
+  "name": "homesensors",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dict": "^1.4.0",
+    "express": "~4.14.0",
+    "express-sse": "^0.4.1",
+    "jade": "~1.11.0",
+    "log4js": "^1.1.0",
+    "mongoose": "^4.9.2",
+    "monk": "^3.1.4",
+    "morgan": "~1.7.0",
+    "promise": "^7.1.1",
+    "serialport": "^4.0.7",
+    "serve-favicon": "~2.3.0",
+    "server-sent-events": "^1.0.1",
+    "xbee-api": "^0.5.2"
+  }
+}

@@ -1,0 +1,15 @@
+doctype html
+html(ng-app='HomeSensorApp')
+  head
+    title= title
+  
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-resource.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js')
+    script(src='/javascripts/homesensing.js')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  body
+    block content

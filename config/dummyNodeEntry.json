@@ -1,0 +1,76 @@
+{
+    "address64": "fillMe",
+    "nodeIdentifier": "fillMe",
+    "coordinates": {
+        "latitude": 51.075884,
+        "longitude": -114.067917
+    },
+    "elevation": 1045,
+    "deviceType": "",
+    "status": {
+        "commissioned": false,
+        "commissionedTimestamp": 0,
+        "discoveredTimestamp": 0,
+        "enabled": false
+    },
+
+    "ioConfiguration": [
+{
+            "pinName": "Supply",
+            "address": "supply",
+            "tagname": "supply",
+            "comment": "",
+            "status": "",
+            "enabled": false,
+            "updatedTimestamp": "",
+            "config": { "type":"AI", "scaling": {"lowRaw": 0, "highRaw":3.3, "lowEU":0, "highEU":3.3, "UOM":"C"} }
+
+        },
+    	{
+            "pinName": "D0",
+            "address": "AD0/DIO0",
+            "tagname": "",
+            "comment": "",
+            "status": "",
+            "enabled": false,
+            "updatedTimestamp": ""
+        },
+        {
+            "pinName": "D1",
+            "address": "AD1/DIO1",
+            "tagname": "",
+            "comment": "",
+            "status": "",
+            "enabled": false,
+            "updatedTimestamp": ""
+        },
+        {
+            "pinName": "D2",
+            "address": "AD2/DIO2",
+            "tagname": "",
+            "comment": "",
+            "status": "",
+            "enabled": false,
+            "updatedTimestamp": ""
+        },
+        {
+            "pinName": "D3",
+            "address": "AD3/DIO3",
+            "tagname": "",
+            "comment": "",
+            "status": "",
+            "enabled": false,
+            "updatedTimestamp": ""
+        },
+        {
+            "pinName": "D4",
+            "address": "DIO4",
+            "tagname": "",
+            "comment": "",
+            "status": "",
+            "enabled": false,    
+            "updatedTimestamp": ""
+        }
+
+    ]
+}

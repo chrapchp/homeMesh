@@ -1,0 +1,192 @@
+<h1>
+    Commission Device
+</h1>
+<div class="container">
+    <div ng-show="!deviceToCommission.address64">
+        <h3>
+            Address64:
+            <i class="fa fa-spinner fa-spin" style="font-size:24px;color: red">
+            </i>
+        </h3>
+    </div>
+    <div class="ng-hide" ng-show="deviceToCommission.address64">
+        <h3>
+            Address64: {{deviceToCommission.address64}}
+        </h3>
+    </div>
+    <div ng-show="!deviceToCommission.nodeIdentifier">
+        <h3>
+            Node Identifier:
+            <i class="fa fa-spinner fa-spin" style="font-size:24px;color: red">
+            </i>
+        </h3>
+    </div>
+    <div class="ng-hide" ng-show="deviceToCommission.nodeIdentifier">
+        <h3>
+            Node Identifier: {{deviceToCommission.nodeIdentifier}}
+        </h3>
+    </div>
+    <div ng-style="{'color': statusForegroundColor}">
+        {{statusMessage}}
+    </div>
+</div>
+<div "="" class="ng-hide" ng-show="deviceToCommission.nodeIdentifier">
+    <form name="myForm">
+        <table class="table table-borderless table-condensed ">
+            <thead>
+                <tr>
+                    <th>
+                        Latitude
+                    </th>
+                    <th>
+                        Longitude
+                    </th>
+                    <th>
+                        Elevation
+                    </th>
+                    <th>
+                        Enabled
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    <input class="form-control" ng-model="deviceToCommission.coordinates.latitude" type="number"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="deviceToCommission.coordinates.longitude" type="number"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="deviceToCommission.elevation" type="number"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="deviceToCommission.status.enabled" type="checkbox"/>
+                </td>
+            </tr>
+            <thead>
+                <tr>
+                    <th>
+                        Device Type
+                    </th>
+                    <th>
+                        Commissioned
+                    </th>
+                    <th>
+                        Commissioned Date
+                    </th>
+                    <th>
+                        Discovered Date
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    {{deviceToCommission.deviceType}}
+                </td>
+                <td>
+                    <input class="form-control" ng-model="deviceToCommission.status.commissioned" type="checkbox"/>
+                </td>
+                <td>
+                    {{deviceToCommission.status.commissionedTimestamp}}
+                </td>
+                <td>
+                    {{deviceToCommission.status.discoveredTimestamp}}
+                </td>
+            </tr>
+        </table>
+        <table class="table table-borderless table-condensed table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Pin
+                    </th>
+                    <th>
+                        Address
+                    </th>
+                    <th>
+                        Tag Name
+                    </th>
+                    <th>
+                        Comment
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                     <th>
+                        Raw Low
+                    </th>
+                     <th>
+                        Raw High
+                    </th>
+                     <th>
+                        EU Low
+                    </th>
+                     <th>
+                        EU High
+                    </th>
+                     <th>
+                        UOM
+                    </th>
+                    <th>
+                        Persist
+                    </th>
+                </tr>
+            </thead>
+            <tr class="form-group" ng-repeat="xbeeIO in deviceToCommission.ioConfiguration" ng-repeat-end="">
+                <td>
+                    {{xbeeIO.pinName}}
+                </td>
+                <td>
+                    {{xbeeIO.address}}
+                </td>
+                <td>
+                    <input autogrow="" class="form-control" ng-model="xbeeIO.tagname" type="text"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="xbeeIO.comment" type="text"/>
+                </td>
+                <td>
+                    <select name="singleSelect" ng-model="xbeeIO.config.type">
+                        <option value="AI">
+                            Analog Input
+                        </option>
+                        <option value="DI">
+                            Discrete Input
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="xbeeIO.config.scaling.lowRaw" ngMin=0 type="text"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="xbeeIO.config.scaling.highRaw" type="text"/>
+                </td>
+                 <td>
+                    <input class="form-control" ng-model="xbeeIO.config.scaling.lowEU" ngMin=0 type="text"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="xbeeIO.config.scaling.highEU" type="text"/>
+                </td>
+                    <td>
+                    <input class="form-control" ng-model="xbeeIO.config.scaling.UOM" type="text"/>
+                </td>
+                <td>
+                    <input class="form-control" ng-model="xbeeIO.enabled" type="checkbox"/>
+                </td>
+            </tr>
+        </table>
+        <div role="alert">
+    <span class="error" ng-show="myForm.input.$error.required">
+      Required!</span>
+    <span class="error" ng-show="myForm.input.$error.number">
+      Not valid number!</span>
+  </div>
+        <div>
+            <input class="btn btn-primary" ng-click="save()" type="button" value="Save"/>
+            <input class="btn btn-primary" ng-click="Listen()" type="button" value="Listen"/>
+            <a class="btn btn-default" href="#/">
+                Home
+            </a>
+        </div>
+    </form>
+</div>

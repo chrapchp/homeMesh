@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.selectedpjc {
+    background-color:black;
+    color:white;
+    font-weight:bold;
+}
+
+
+ .headerpjc {
+        background-color:#3ab44a;
+        color:white;
+        font-weight:bold;
+    }
+    .itempjc {
+        padding-left:8px;
+    }

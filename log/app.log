@@ -1,0 +1,63 @@
+[2017-02-25 17:02:34.046] [INFO] startup - Express server listening on port 3020
+[2017-02-25 17:02:35.532] [INFO] app.js - xbee_ready open
+[2017-02-25 17:02:35.535] [DEBUG] XBeeConcentrator.js - sent discovernode
+[2017-02-25 17:02:39.076] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067359076,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:02:40.033] [DEBUG] XBeeConcentrator.js - { timestamp: 1488067360033,
+  type: 136,
+  address64: '0013a20040485779',
+  nodeIdentifier: 'RemFive' }
+[2017-02-25 17:02:51.230] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067371230,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:03:03.386] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067383386,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:03:15.542] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067395542,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:03:27.698] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067407698,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:03:39.870] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067419870,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:03:52.025] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067432025,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:04:04.181] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067444181,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:04:16.337] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067456337,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:04:28.493] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067468493,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:04:40.648] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067480648,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:04:52.820] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067492820,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:05:04.976] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067504976,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:05:17.131] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067517131,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:05:29.287] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067529287,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:05:39.544] [INFO] startup - Express server listening on port 3020
+[2017-02-25 17:05:41.247] [INFO] app.js - xbee_ready open
+[2017-02-25 17:05:41.249] [DEBUG] XBeeConcentrator.js - sent discovernode
+[2017-02-25 17:05:41.447] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067541447,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:05:43.698] [DEBUG] XBeeConcentrator.js - { timestamp: 1488067543697,
+  type: 136,
+  address64: '0013a20040485779',
+  nodeIdentifier: 'RemFive' }
+[2017-02-25 17:05:53.601] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067553601,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:06:05.772] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067565772,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:06:17.928] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067577928,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:06:30.084] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067590084,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:06:42.239] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067602239,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:06:54.395] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067614395,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:07:06.567] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067626567,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:07:18.723] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067638723,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:07:30.879] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067650879,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:07:43.034] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067663034,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:07:55.190] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067675190,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:08:07.346] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067687346,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:08:19.519] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067699519,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:08:26.062] [INFO] startup - Express server listening on port 3020
+[2017-02-25 17:08:27.750] [INFO] app.js - xbee_ready open
+[2017-02-25 17:08:27.753] [DEBUG] XBeeConcentrator.js - sent discovernode
+[2017-02-25 17:08:31.677] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067711677,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:08:32.587] [DEBUG] XBeeConcentrator.js - { timestamp: 1488067712587,
+  type: 136,
+  address64: '0013a20040485779',
+  nodeIdentifier: 'RemFive' }
+[2017-02-25 17:08:43.832] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067723832,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:08:55.987] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067735987,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:09:08.143] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067748143,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:09:20.299] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067760299,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:09:32.471] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067772470,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:09:44.626] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067784626,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:09:56.782] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067796782,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:10:08.938] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067808938,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:10:21.093] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067821093,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:10:33.265] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067833265,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:10:45.421] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067845421,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
+[2017-02-25 17:10:57.576] [DEBUG] app.js - xbee_rx_IO {"timestamp":1488067857576,"type":146,"address64":"0013a20040485779","digitalSamples":{"DIO2":1},"analogSamples":{"AD1":612,"SUPPLY":3275}}
